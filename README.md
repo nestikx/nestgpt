@@ -6,7 +6,7 @@
 
 ---
 
-🔗[Open App](https:\\nestgpt.onrender.com)
+🔗[Open App](https://nestgpt-y5vx.onrender.com)
 
 ---
 
