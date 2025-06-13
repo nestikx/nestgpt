@@ -2,7 +2,7 @@ import flet as ft
 import asyncio
 import os
 
-import gpt, pages
+import gpt, pages, ns
 
 
 class Message(ft.Row):
@@ -228,4 +228,4 @@ async def main(page: ft.Page):
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 2496))
-    ft.app(target = main, view = ft.WEB_BROWSER, port = port)
+    ft.app(target = main)#, view = ft.WEB_BROWSER, port = port)
