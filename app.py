@@ -192,7 +192,7 @@ async def main(page: ft.Page):
     chat = ft.Container(
         ft.Column(
             [
-                Message(page, "active model gpt-4o\napp is unstable!", "system")
+                Message(page, "active model gpt-4o", "system")
             ],
             scroll = ft.ScrollMode.AUTO
         ),

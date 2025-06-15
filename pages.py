@@ -54,7 +54,7 @@ async def load(page: ft.Page, init_func):
     )
 
     text = ft.Text(
-        value = "the app is loading\nplease wait a second",
+        value = "app is loading\nplease wait a second",
         size = 20,
         color = "white",
         text_align = ft.TextAlign.CENTER,
