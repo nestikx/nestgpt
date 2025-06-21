@@ -72,7 +72,7 @@ async def main(page: ft.Page):
     await pages.load(page, gpt.init)
     page.controls.clear()
 
-    page.title = "Nest GPT"
+    page.title = "Nuxt GPT"
     page.theme_mode = ft.ThemeMode.LIGHT
     page.bgcolor = ft.Colors.SURFACE
     page.fonts = {
@@ -130,7 +130,7 @@ async def main(page: ft.Page):
         page.update()
     
     title_text = ft.Text(
-        value = "Nest GPT",
+        value = "Nuxt GPT",
         font_family = "PollyRounded-Bold",
         size = 32
     )
